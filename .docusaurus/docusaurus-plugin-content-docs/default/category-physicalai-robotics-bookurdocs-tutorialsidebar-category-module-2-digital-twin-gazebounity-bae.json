@@ -1,0 +1,16 @@
+{
+  "title": "Module 2: Digital Twin (Gazebo/Unity)",
+  "description": "Create simulation environments with physics engines and sensor simulation",
+  "slug": "/category/module-2-digital-twin-gazebounity",
+  "permalink": "/PhysicalAi-Robotics-Book/ur/docs/category/module-2-digital-twin-gazebounity",
+  "navigation": {
+    "previous": {
+      "title": "Module 1: ROS 2 Nervous System",
+      "permalink": "/PhysicalAi-Robotics-Book/ur/docs/module1-ros/intro"
+    },
+    "next": {
+      "title": "Module 2: Digital Twin (Gazebo/Unity)",
+      "permalink": "/PhysicalAi-Robotics-Book/ur/docs/module2-digital-twin/intro"
+    }
+  }
+}

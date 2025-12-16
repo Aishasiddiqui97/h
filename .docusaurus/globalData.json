@@ -1,0 +1,78 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/PhysicalAi-Robotics-Book/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/PhysicalAi-Robotics-Book/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/PhysicalAi-Robotics-Book/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1-ros/intro",
+              "path": "/PhysicalAi-Robotics-Book/docs/module1-ros/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2-digital-twin/intro",
+              "path": "/PhysicalAi-Robotics-Book/docs/module2-digital-twin/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3-isaac-ai/intro",
+              "path": "/PhysicalAi-Robotics-Book/docs/module3-isaac-ai/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4-capstone/intro",
+              "path": "/PhysicalAi-Robotics-Book/docs/module4-capstone/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "repo-structure",
+              "path": "/PhysicalAi-Robotics-Book/docs/repo-structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/module-1-ros-2-nervous-system",
+              "path": "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/module-2-digital-twin-gazebounity",
+              "path": "/PhysicalAi-Robotics-Book/docs/category/module-2-digital-twin-gazebounity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/module-3-nvidia-isaac-ai-robot-brain",
+              "path": "/PhysicalAi-Robotics-Book/docs/category/module-3-nvidia-isaac-ai-robot-brain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/module-4-vision-language-action--humanoid-capstone",
+              "path": "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/PhysicalAi-Robotics-Book/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

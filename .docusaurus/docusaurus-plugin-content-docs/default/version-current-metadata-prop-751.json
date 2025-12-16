@@ -1,0 +1,130 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Embodied Intelligence: Where AI Meets the Physical World",
+        "href": "/PhysicalAi-Robotics-Book/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Repository Structure & Guidelines",
+        "href": "/PhysicalAi-Robotics-Book/docs/repo-structure",
+        "docId": "repo-structure",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Module 1: ROS 2 Nervous System",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 1: ROS 2 Nervous System",
+            "href": "/PhysicalAi-Robotics-Book/docs/module1-ros/intro",
+            "docId": "module1-ros/intro",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true,
+        "href": "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system"
+      },
+      {
+        "type": "category",
+        "label": "Module 2: Digital Twin (Gazebo/Unity)",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 2: Digital Twin (Gazebo/Unity)",
+            "href": "/PhysicalAi-Robotics-Book/docs/module2-digital-twin/intro",
+            "docId": "module2-digital-twin/intro",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true,
+        "href": "/PhysicalAi-Robotics-Book/docs/category/module-2-digital-twin-gazebounity"
+      },
+      {
+        "type": "category",
+        "label": "Module 3: NVIDIA Isaac AI-Robot Brain",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 3: NVIDIA Isaac AI-Robot Brain",
+            "href": "/PhysicalAi-Robotics-Book/docs/module3-isaac-ai/intro",
+            "docId": "module3-isaac-ai/intro",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true,
+        "href": "/PhysicalAi-Robotics-Book/docs/category/module-3-nvidia-isaac-ai-robot-brain"
+      },
+      {
+        "type": "category",
+        "label": "Module 4: Vision-Language-Action & Humanoid Capstone",
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 4: Vision-Language-Action & Humanoid Capstone",
+            "href": "/PhysicalAi-Robotics-Book/docs/module4-capstone/intro",
+            "docId": "module4-capstone/intro",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true,
+        "href": "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone"
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Embodied Intelligence: Where AI Meets the Physical World",
+      "description": "Welcome to the Physical AI & Humanoid Robotics educational platform - a comprehensive guide to building intelligent robotic systems that bridge the gap between artificial intelligence and physical reality.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1-ros/intro": {
+      "id": "module1-ros/intro",
+      "title": "Module 1: ROS 2 Nervous System",
+      "description": "Welcome to the ROS 2 Nervous System module. In this module, you'll learn the fundamentals of ROS 2 architecture and communication patterns.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2-digital-twin/intro": {
+      "id": "module2-digital-twin/intro",
+      "title": "Module 2: Digital Twin (Gazebo/Unity)",
+      "description": "Welcome to the Digital Twin module. In this module, you'll learn how to create simulation environments using Gazebo and Unity for robotics applications.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module3-isaac-ai/intro": {
+      "id": "module3-isaac-ai/intro",
+      "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+      "description": "Welcome to the NVIDIA Isaac AI-Robot Brain module. In this module, you'll learn how to integrate AI capabilities into robotic systems using NVIDIA Isaac.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4-capstone/intro": {
+      "id": "module4-capstone/intro",
+      "title": "Module 4: Vision-Language-Action & Humanoid Capstone",
+      "description": "Welcome to the Vision-Language-Action & Humanoid Capstone module. In this final module, you'll integrate all concepts learned to create a complete humanoid robot system.",
+      "sidebar": "tutorialSidebar"
+    },
+    "repo-structure": {
+      "id": "repo-structure",
+      "title": "Repository Structure & Guidelines",
+      "description": "This document explains the repository structure and commit message guidelines for the Physical AI & Humanoid Robotics book.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

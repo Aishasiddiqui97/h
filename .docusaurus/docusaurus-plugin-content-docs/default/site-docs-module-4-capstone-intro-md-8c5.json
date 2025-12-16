@@ -1,0 +1,23 @@
+{
+  "id": "module4-capstone/intro",
+  "title": "Module 4: Vision-Language-Action & Humanoid Capstone",
+  "description": "Welcome to the Vision-Language-Action & Humanoid Capstone module. In this final module, you'll integrate all concepts learned to create a complete humanoid robot system.",
+  "source": "@site/docs/module4-capstone/intro.md",
+  "sourceDirName": "module4-capstone",
+  "slug": "/module4-capstone/intro",
+  "permalink": "/PhysicalAi-Robotics-Book/docs/module4-capstone/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/module4-capstone/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 4: Vision-Language-Action & Humanoid Capstone",
+    "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone"
+  }
+}

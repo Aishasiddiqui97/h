@@ -1,0 +1,27 @@
+{
+  "id": "module1-ros/intro",
+  "title": "Module 1: ROS 2 Nervous System",
+  "description": "Welcome to the ROS 2 Nervous System module. In this module, you'll learn the fundamentals of ROS 2 architecture and communication patterns.",
+  "source": "@site/docs/module1-ros/intro.md",
+  "sourceDirName": "module1-ros",
+  "slug": "/module1-ros/intro",
+  "permalink": "/PhysicalAi-Robotics-Book/docs/module1-ros/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/module1-ros/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1: ROS 2 Nervous System",
+    "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system"
+  },
+  "next": {
+    "title": "Module 2: Digital Twin (Gazebo/Unity)",
+    "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-2-digital-twin-gazebounity"
+  }
+}

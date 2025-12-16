@@ -1,0 +1,407 @@
+openapi: 3.0.0
+info:
+  title: Textbook Content API
+  description: API for accessing textbook content, code examples, and lab exercises
+  version: 1.0.0
+servers:
+  - url: https://api.textbook.example.com/v1
+    description: Production server
+  - url: https://staging.api.textbook.example.com/v1
+    description: Staging server
+
+paths:
+  /chapters:
+    get:
+      summary: List all textbook chapters
+      description: Retrieve a list of all available textbook chapters
+      parameters:
+        - name: language
+          in: query
+          required: false
+          schema:
+            type: string
+            default: "en"
+            enum: [en, ur]
+          description: Language code for content
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 12
+          description: Maximum number of chapters to return
+      responses:
+        '200':
+          description: A list of textbook chapters
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  chapters:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Chapter'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /chapters/{chapterId}:
+    get:
+      summary: Get chapter content
+      description: Retrieve the content of a specific chapter
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the chapter
+        - name: language
+          in: query
+          required: false
+          schema:
+            type: string
+            default: "en"
+            enum: [en, ur]
+          description: Language code for content
+      responses:
+        '200':
+          description: Chapter content
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chapter'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /chapters/{chapterId}/labs:
+    get:
+      summary: Get lab exercises for a chapter
+      description: Retrieve all lab exercises associated with a specific chapter
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the chapter
+      responses:
+        '200':
+          description: List of lab exercises
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  labs:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/LabExercise'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /code-examples:
+    get:
+      summary: List code examples
+      description: Retrieve a list of all code examples in the textbook
+      parameters:
+        - name: chapterId
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Filter by chapter ID
+        - name: language
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [python, cpp]
+          description: Filter by programming language
+      responses:
+        '200':
+          description: A list of code examples
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  codeExamples:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/CodeExample'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+  /projects:
+    get:
+      summary: List projects
+      description: Retrieve a list of all projects in the textbook
+      responses:
+        '200':
+          description: A list of projects
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  projects:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Project'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+components:
+  schemas:
+    Chapter:
+      type: object
+      required:
+        - id
+        - title
+        - content
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the chapter
+        title:
+          type: string
+          description: Chapter title
+        summary:
+          type: string
+          description: One-line summary of the chapter
+        content:
+          type: string
+          description: Chapter content in markdown format
+        learningObjectives:
+          type: array
+          items:
+            type: string
+          description: List of learning objectives
+        prerequisites:
+          type: array
+          items:
+            type: string
+          description: List of prerequisite knowledge
+        codeExamples:
+          type: array
+          items:
+            type: string
+          description: List of associated code example IDs
+        labExercises:
+          type: array
+          items:
+            type: string
+          description: List of associated lab exercise IDs
+        assessments:
+          type: array
+          items:
+            type: string
+          description: List of associated assessment IDs
+        assets:
+          type: array
+          items:
+            type: string
+          description: List of associated asset URLs
+        language:
+          type: string
+          description: Language code for this content
+
+    LabExercise:
+      type: object
+      required:
+        - id
+        - title
+        - chapterId
+        - instructions
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the lab
+        title:
+          type: string
+          description: Lab title
+        chapterId:
+          type: string
+          description: Reference to the parent chapter
+        objectives:
+          type: array
+          items:
+            type: string
+          description: Learning objectives for the lab
+        materials:
+          type: array
+          items:
+            $ref: '#/components/schemas/Material'
+          description: List of required materials and hardware
+        instructions:
+          type: string
+          description: Step-by-step instructions in markdown
+        expectedOutcomes:
+          type: string
+          description: Description of expected results
+        troubleshooting:
+          type: string
+          description: Common issues and solutions
+        duration:
+          type: string
+          description: Estimated completion time
+        difficulty:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          description: Difficulty level
+
+    Material:
+      type: object
+      required:
+        - name
+        - quantity
+      properties:
+        name:
+          type: string
+          description: Name of the material
+        quantity:
+          type: integer
+          description: Required quantity
+        partNumber:
+          type: string
+          description: Manufacturer part number
+        supplier:
+          type: string
+          description: Recommended supplier
+        cost:
+          type: number
+          description: Estimated cost
+        compatibility:
+          type: string
+          description: Compatibility notes
+        safetyNotes:
+          type: string
+          description: Safety considerations
+
+    CodeExample:
+      type: object
+      required:
+        - id
+        - title
+        - code
+        - language
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the code example
+        title:
+          type: string
+          description: Descriptive title
+        chapterId:
+          type: string
+          description: Reference to the parent chapter
+        code:
+          type: string
+          description: Source code content
+        language:
+          type: string
+          enum: [python, cpp]
+          description: Programming language
+        description:
+          type: string
+          description: Explanation of what the code does
+        dependencies:
+          type: array
+          items:
+            type: string
+          description: List of required dependencies
+        environment:
+          type: string
+          description: Docker/build environment specifications
+        testCases:
+          type: array
+          items:
+            type: string
+          description: Associated test cases
+
+    Project:
+      type: object
+      required:
+        - id
+        - title
+        - description
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the project
+        title:
+          type: string
+          description: Project title
+        description:
+          type: string
+          description: Detailed project description
+        objectives:
+          type: array
+          items:
+            type: string
+          description: Learning objectives
+        requirements:
+          type: array
+          items:
+            type: string
+          description: Technical requirements
+        deliverables:
+          type: array
+          items:
+            type: string
+          description: Expected deliverables
+        timeline:
+          type: string
+          description: Project timeline
+        evaluationCriteria:
+          type: string
+          description: How the project will be evaluated
+        resources:
+          type: array
+          items:
+            type: string
+          description: Required resources and materials
+
+  responses:
+    BadRequest:
+      description: Bad request - invalid parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    InternalServerError:
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+
+  schemas:
+    Error:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error code
+        message:
+          type: string
+          description: Error message
+        details:
+          type: object
+          description: Additional error details

@@ -1,0 +1,27 @@
+{
+  "id": "module3-isaac-ai/intro",
+  "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+  "description": "Welcome to the NVIDIA Isaac AI-Robot Brain module. In this module, you'll learn how to integrate AI capabilities into robotic systems using NVIDIA Isaac.",
+  "source": "@site/docs/module3-isaac-ai/intro.md",
+  "sourceDirName": "module3-isaac-ai",
+  "slug": "/module3-isaac-ai/intro",
+  "permalink": "/PhysicalAi-Robotics-Book/docs/module3-isaac-ai/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/module3-isaac-ai/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+    "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-3-nvidia-isaac-ai-robot-brain"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action & Humanoid Capstone",
+    "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone"
+  }
+}

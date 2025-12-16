@@ -1,0 +1,302 @@
+/**
+ * Physical AI & Humanoid Robotics - Futuristic Theme
+ * Dark, high-tech theme with neon accents (cyan/blue/purple)
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Dark theme colors */
+  --ifm-color-primary: #00FFFF;        /* Cyan neon */
+  --ifm-color-primary-dark: #00BFFF;   /* Blue neon */
+  --ifm-color-primary-darker: #9370DB; /* Purple neon */
+  --ifm-color-primary-darkest: #00CED1; /* Darker cyan */
+  --ifm-color-primary-light: #33FFFF;  /* Lighter cyan */
+  --ifm-color-primary-lighter: #66FFFF; /* Even lighter cyan */
+  --ifm-color-primary-lightest: #99FFFF; /* Lightest cyan */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 255, 0.15);
+
+  /* Background colors */
+  --ifm-background-color: #0A0A0A;
+  --ifm-background-surface-color: #121212;
+  --ifm-footer-background-color: #0A0A0A;
+
+  /* Text colors */
+  --ifm-font-color-base: #E0E0E0;
+  --ifm-font-color-base-inverse: #121212;
+  --ifm-color-content-secondary: #A0A0A0;
+
+  /* Border and shadow */
+  --ifm-border-color: rgba(0, 255, 255, 0.2);
+  --ifm-global-shadow: 0 4px 20px rgba(0, 255, 255, 0.15);
+}
+
+/* Dark theme overrides */
+[data-theme='dark'] {
+  --ifm-color-primary: #00FFFF;
+  --ifm-color-primary-dark: #00BFFF;
+  --ifm-color-primary-darker: #9370DB;
+  --ifm-color-primary-darkest: #00CED1;
+  --ifm-color-primary-light: #33FFFF;
+  --ifm-color-primary-lighter: #66FFFF;
+  --ifm-color-primary-lightest: #99FFFF;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 255, 0.15);
+}
+
+/* Custom styles for robotics content */
+.robotics-diagram {
+  background: rgba(18, 18, 18, 0.8);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.robotics-diagram::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00FFFF, transparent);
+}
+
+.code-block-centered {
+  text-align: center;
+}
+
+/* RTL support for Urdu */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* Custom styling for code examples */
+.ros-code {
+  background: rgba(18, 18, 18, 0.9);
+  border-left: 3px solid #00FFFF;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 0 4px 4px 0;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+.simulation-output {
+  background: rgba(25, 25, 35, 0.8);
+  border: 1px solid rgba(0, 191, 255, 0.3);
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: monospace;
+  overflow-x: auto;
+  margin: 12px 0;
+}
+
+/* Futuristic button styles */
+.button--futuristic {
+  background: linear-gradient(135deg, #00BFFF, #9370DB);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 191, 255, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.button--futuristic:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 191, 255, 0.4);
+  background: linear-gradient(135deg, #00FFFF, #00BFFF);
+}
+
+.button--futuristic::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 20px;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(25deg);
+  transition: all 0.6s;
+}
+
+.button--futuristic:hover::after {
+  left: 120%;
+}
+
+/* Module cards with futuristic styling */
+.module-card {
+  background: rgba(18, 18, 18, 0.8);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 16px 0;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.module-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+
+.module-card--ros::before {
+  background: linear-gradient(90deg, #00FFFF, #00BFFF);
+}
+
+.module-card--digital-twin::before {
+  background: linear-gradient(90deg, #00BFFF, #00FFFF);
+}
+
+.module-card--isaac::before {
+  background: linear-gradient(90deg, #9370DB, #00BFFF);
+}
+
+.module-card--capstone::before {
+  background: linear-gradient(90deg, #00FFFF, #9370DB);
+}
+
+.module-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
+  border-color: rgba(0, 255, 255, 0.4);
+}
+
+/* Code block enhancements */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 255, 255, 0.15);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* Custom sidebar styling */
+.menu__list-item-collapsible .menu__link--sublist,
+.menu__list-item-collapsible .menu__link--sublist:hover {
+  background: rgba(18, 18, 18, 0.5);
+}
+
+/* Header enhancements */
+.navbar {
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+}
+
+/* Footer enhancements */
+.footer {
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(0, 255, 255, 0.1);
+}
+
+/* Animation for interactive elements */
+@keyframes neon-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.3);
+  }
+}
+
+.neon-element {
+  animation: neon-glow 3s infinite alternate;
+}
+
+/* Grid layout for modules */
+.modules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+/* Simulation visualization containers */
+.simulation-container {
+  position: relative;
+  background: rgba(10, 10, 10, 0.7);
+  border: 1px solid rgba(0, 191, 255, 0.3);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+.simulation-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00BFFF, transparent);
+}
+
+/* Capstone flow visualization */
+.capstone-flow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+  position: relative;
+}
+
+.capstone-flow::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00FFFF, #9370DB, transparent);
+  z-index: 1;
+}
+
+.capstone-step {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-border-color);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  min-width: 180px;
+}
+
+.capstone-step h3 {
+  color: #00FFFF;
+  margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .modules-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .capstone-flow {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .capstone-flow::before {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "repo-structure",
+  "title": "Repository Structure & Guidelines",
+  "description": "This document explains the repository structure and commit message guidelines for the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/repo-structure.md",
+  "sourceDirName": ".",
+  "slug": "/repo-structure",
+  "permalink": "/PhysicalAi-Robotics-Book/docs/repo-structure",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/repo-structure.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Embodied Intelligence: Where AI Meets the Physical World",
+    "permalink": "/PhysicalAi-Robotics-Book/docs/intro"
+  },
+  "next": {
+    "title": "Module 1: ROS 2 Nervous System",
+    "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system"
+  }
+}

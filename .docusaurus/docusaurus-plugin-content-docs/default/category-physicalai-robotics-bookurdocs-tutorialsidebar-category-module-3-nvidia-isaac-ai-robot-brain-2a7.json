@@ -1,0 +1,16 @@
+{
+  "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+  "description": "Integrate AI capabilities, perception systems, and planning algorithms",
+  "slug": "/category/module-3-nvidia-isaac-ai-robot-brain",
+  "permalink": "/PhysicalAi-Robotics-Book/ur/docs/category/module-3-nvidia-isaac-ai-robot-brain",
+  "navigation": {
+    "previous": {
+      "title": "Module 2: Digital Twin (Gazebo/Unity)",
+      "permalink": "/PhysicalAi-Robotics-Book/ur/docs/module2-digital-twin/intro"
+    },
+    "next": {
+      "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+      "permalink": "/PhysicalAi-Robotics-Book/ur/docs/module3-isaac-ai/intro"
+    }
+  }
+}

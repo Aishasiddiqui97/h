@@ -1,0 +1,105 @@
+{
+  "/PhysicalAi-Robotics-Book/__docusaurus/debug-fb6": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docusaurus-debugc-01-dd7"
+    }
+  },
+  "/PhysicalAi-Robotics-Book/__docusaurus/debug/config-4ae": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docusaurus-debugc-01-dd7"
+    }
+  },
+  "/PhysicalAi-Robotics-Book/__docusaurus/debug/content-e20": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docusaurus-debugc-01-dd7"
+    },
+    "allContent": "allContent---physical-ai-robotics-book-docusaurus-debug-content-246-147"
+  },
+  "/PhysicalAi-Robotics-Book/__docusaurus/debug/globalData-f44": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docusaurus-debugc-01-dd7"
+    }
+  },
+  "/PhysicalAi-Robotics-Book/__docusaurus/debug/metadata-686": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docusaurus-debugc-01-dd7"
+    }
+  },
+  "/PhysicalAi-Robotics-Book/__docusaurus/debug/registry-1b0": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docusaurus-debugc-01-dd7"
+    }
+  },
+  "/PhysicalAi-Robotics-Book/__docusaurus/debug/routes-be4": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docusaurus-debugc-01-dd7"
+    }
+  },
+  "/PhysicalAi-Robotics-Book/docs-c81": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-docs-237-100"
+    }
+  },
+  "/PhysicalAi-Robotics-Book/docs-c94": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---physical-ai-robotics-book-docs-935-5b5"
+  },
+  "/PhysicalAi-Robotics-Book/docs-38e": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system-792": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---physical-ai-robotics-book-docs-category-module-1-ros-2-nervous-systemede-bc3"
+  },
+  "/PhysicalAi-Robotics-Book/docs/category/module-2-digital-twin-gazebounity-5d8": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---physical-ai-robotics-book-docs-category-module-2-digital-twin-gazebounityb-63-5fd"
+  },
+  "/PhysicalAi-Robotics-Book/docs/category/module-3-nvidia-isaac-ai-robot-brain-fc0": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---physical-ai-robotics-book-docs-category-module-3-nvidia-isaac-ai-robot-brain-941-921"
+  },
+  "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone-2cd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---physical-ai-robotics-book-docs-category-module-4-vision-language-action-humanoid-capstone-440-50c"
+  },
+  "/PhysicalAi-Robotics-Book/docs/intro-24a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-robotics-book-docs-intro-0-e-3-c71"
+  },
+  "/PhysicalAi-Robotics-Book/docs/module1-ros/intro-969": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-robotics-book-docs-module-1-ros-introba-1-69f"
+  },
+  "/PhysicalAi-Robotics-Book/docs/module2-digital-twin/intro-a6e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-robotics-book-docs-module-2-digital-twin-intro-267-624"
+  },
+  "/PhysicalAi-Robotics-Book/docs/module3-isaac-ai/intro-e7f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-robotics-book-docs-module-3-isaac-ai-intro-925-bb0"
+  },
+  "/PhysicalAi-Robotics-Book/docs/module4-capstone/intro-181": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-robotics-book-docs-module-4-capstone-intro-8-c-5-5dd"
+  },
+  "/PhysicalAi-Robotics-Book/docs/repo-structure-7d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-robotics-book-docs-repo-structurefdf-1fd"
+  },
+  "/PhysicalAi-Robotics-Book/-d1e": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---physical-ai-robotics-book-592-3e4"
+    },
+    "config": "config---physical-ai-robotics-book-5-e-9-ef5"
+  }
+}

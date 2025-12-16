@@ -1,0 +1,223 @@
+/**
+ * CSS module for the homepage
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0A0A0A, #121212);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Robot Visualization Styles */
+.robotVisualization {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+}
+
+.robotContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.robotBody {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 100px;
+  background: linear-gradient(135deg, #00BFFF, #00FFFF);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);
+}
+
+.robotHead {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #9370DB, #00BFFF);
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(147, 112, 219, 0.5);
+}
+
+.robotArm {
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  width: 15px;
+  height: 70px;
+  background: linear-gradient(135deg, #00FFFF, #00BFFF);
+  border-radius: 8px;
+  transform-origin: top center;
+  animation: moveArm 4s infinite ease-in-out;
+}
+
+.robotArmRight {
+  left: 65%;
+  animation-delay: 2s;
+}
+
+@keyframes moveArm {
+  0%, 100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+.neuralNetwork {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.neuralNetwork::before,
+.neuralNetwork::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #00FFFF;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00FFFF;
+}
+
+.neuralNetwork::before {
+  left: 10%;
+}
+
+.neuralNetwork::after {
+  right: 10%;
+}
+
+.neuralNetwork > div {
+  width: 12px;
+  height: 12px;
+  background: #9370DB;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #9370DB;
+  position: relative;
+}
+
+.neuralNetwork > div::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: rgba(0, 255, 255, 0.5);
+  top: 5px;
+  left: 12px;
+}
+
+.dataFlow {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 2px;
+  background: transparent;
+}
+
+.dataFlow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #00FFFF, transparent);
+  animation: dataFlow 3s infinite linear;
+}
+
+@keyframes dataFlow {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+/* Modules Section */
+.modulesSection {
+  padding: 4rem 0;
+  background: rgba(10, 10, 10, 0.7);
+}
+
+.modulesSection h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #00FFFF;
+  font-size: 2.5rem;
+}
+
+/* Capstone Section */
+.capstoneSection {
+  padding: 4rem 0;
+  background: rgba(18, 18, 18, 0.9);
+}
+
+.capstoneSection h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #9370DB;
+  font-size: 2.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .robotVisualization {
+    height: 150px;
+  }
+
+  .robotContainer {
+    width: 150px;
+    height: 150px;
+  }
+
+  .modulesSection,
+  .capstoneSection {
+    padding: 2rem 0;
+  }
+
+  .modulesSection h2,
+  .capstoneSection h2 {
+    font-size: 2rem;
+  }
+}

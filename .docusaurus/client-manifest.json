@@ -1,0 +1,273 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0e2c1088": [
+      732
+    ],
+    "0e384e19": [
+      976
+    ],
+    "14eb3368": [
+      869,
+      969
+    ],
+    "237013e0": [
+      312
+    ],
+    "267e1c29": [
+      36
+    ],
+    "5e95c892": [
+      647
+    ],
+    "8c507f6f": [
+      392
+    ],
+    "925946ce": [
+      846
+    ],
+    "935f2afb": [
+      581
+    ],
+    "9a86e250": [
+      181
+    ],
+    "a4b11482": [
+      442
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "ba160f08": [
+      679
+    ],
+    "f31464a6": [
+      662
+    ],
+    "fdf04947": [
+      589
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      792,
+      969,
+      869
+    ]
+  },
+  "assets": {
+    "36": {
+      "js": [
+        {
+          "file": "assets/js/267e1c29.56ceaf1a.js",
+          "hash": "78637bb1d88c34d6",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/267e1c29.56ceaf1a.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.0080a5ae.js",
+          "hash": "12714e09c59e509c",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/a94703ab.0080a5ae.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.128ac9f5.js",
+          "hash": "fa0cd1d272fe4b1a",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/a7bd4aaa.128ac9f5.js"
+        }
+      ]
+    },
+    "181": {
+      "js": [
+        {
+          "file": "assets/js/9a86e250.cd92af8d.js",
+          "hash": "0fc175b39da8fe9d",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/9a86e250.cd92af8d.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.3996bd15.js",
+          "hash": "c739d2551864a23b",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/237.3996bd15.js"
+        }
+      ]
+    },
+    "312": {
+      "js": [
+        {
+          "file": "assets/js/237013e0.8df185fa.js",
+          "hash": "609bb35cbf3e92e8",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/237013e0.8df185fa.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.2f5ea348.js",
+          "hash": "4dbb25bc3bd85af5",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/runtime~main.2f5ea348.js"
+        }
+      ]
+    },
+    "392": {
+      "js": [
+        {
+          "file": "assets/js/8c507f6f.cb00d856.js",
+          "hash": "b14c4cb5ed30be6d",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/8c507f6f.cb00d856.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.a6695f78.js",
+          "hash": "64fd10709c8a7b37",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/17896441.a6695f78.js"
+        }
+      ]
+    },
+    "442": {
+      "js": [
+        {
+          "file": "assets/js/a4b11482.fc0ec955.js",
+          "hash": "259e4fa2df67e321",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/a4b11482.fc0ec955.js"
+        }
+      ]
+    },
+    "581": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.143dc631.js",
+          "hash": "42d4dccb4d028d00",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/935f2afb.143dc631.js"
+        }
+      ]
+    },
+    "589": {
+      "js": [
+        {
+          "file": "assets/js/fdf04947.72aca165.js",
+          "hash": "d05b960fe6f2a1a0",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/fdf04947.72aca165.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.93300a1e.js",
+          "hash": "744fa905b2da8d8a",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/5e95c892.93300a1e.js"
+        }
+      ]
+    },
+    "662": {
+      "js": [
+        {
+          "file": "assets/js/f31464a6.88f543cf.js",
+          "hash": "cca364647a35893c",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/f31464a6.88f543cf.js"
+        }
+      ]
+    },
+    "679": {
+      "js": [
+        {
+          "file": "assets/js/ba160f08.adbdbc62.js",
+          "hash": "c24f67c7eedacee9",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/ba160f08.adbdbc62.js"
+        }
+      ]
+    },
+    "732": {
+      "js": [
+        {
+          "file": "assets/js/0e2c1088.26623057.js",
+          "hash": "f25486f7aa7b1a75",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/0e2c1088.26623057.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.0d11caad.js",
+          "hash": "bf1dde86006861d4",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/main.0d11caad.js"
+        }
+      ]
+    },
+    "846": {
+      "js": [
+        {
+          "file": "assets/js/925946ce.05e66014.js",
+          "hash": "a87c9bc9eb14461a",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/925946ce.05e66014.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.07f21ee1.css",
+          "hash": "4a87c0baf37a982e",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/css/styles.07f21ee1.css"
+        }
+      ]
+    },
+    "969": {
+      "js": [
+        {
+          "file": "assets/js/14eb3368.288ec9ba.js",
+          "hash": "681757cd491246ff",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/14eb3368.288ec9ba.js"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.9228e064.js",
+          "hash": "12e16b83aa9ab527",
+          "publicPath": "/PhysicalAi-Robotics-Book/ur/assets/js/0e384e19.9228e064.js"
+        }
+      ]
+    }
+  }
+}

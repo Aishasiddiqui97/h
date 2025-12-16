@@ -1,0 +1,276 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/PhysicalAi-Robotics-Book/docs",
+          "tagsPath": "/PhysicalAi-Robotics-Book/docs/tags",
+          "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs",
+          "editUrlLocalized": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "E:\\Python.py\\claude\\PhysicalAi Robotics book\\book\\book\\sidebars.js",
+          "contentPath": "E:\\Python.py\\claude\\PhysicalAi Robotics book\\book\\book\\docs",
+          "contentPathLocalized": "E:\\Python.py\\claude\\PhysicalAi Robotics book\\book\\book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "intro",
+              "title": "Embodied Intelligence: Where AI Meets the Physical World",
+              "description": "Welcome to the Physical AI & Humanoid Robotics educational platform - a comprehensive guide to building intelligent robotic systems that bridge the gap between artificial intelligence and physical reality.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/PhysicalAi-Robotics-Book/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Repository Structure & Guidelines",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/repo-structure"
+              }
+            },
+            {
+              "id": "module1-ros/intro",
+              "title": "Module 1: ROS 2 Nervous System",
+              "description": "Welcome to the ROS 2 Nervous System module. In this module, you'll learn the fundamentals of ROS 2 architecture and communication patterns.",
+              "source": "@site/docs/module1-ros/intro.md",
+              "sourceDirName": "module1-ros",
+              "slug": "/module1-ros/intro",
+              "permalink": "/PhysicalAi-Robotics-Book/docs/module1-ros/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/module1-ros/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 1: ROS 2 Nervous System",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system"
+              },
+              "next": {
+                "title": "Module 2: Digital Twin (Gazebo/Unity)",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-2-digital-twin-gazebounity"
+              }
+            },
+            {
+              "id": "module2-digital-twin/intro",
+              "title": "Module 2: Digital Twin (Gazebo/Unity)",
+              "description": "Welcome to the Digital Twin module. In this module, you'll learn how to create simulation environments using Gazebo and Unity for robotics applications.",
+              "source": "@site/docs/module2-digital-twin/intro.md",
+              "sourceDirName": "module2-digital-twin",
+              "slug": "/module2-digital-twin/intro",
+              "permalink": "/PhysicalAi-Robotics-Book/docs/module2-digital-twin/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/module2-digital-twin/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 2: Digital Twin (Gazebo/Unity)",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-2-digital-twin-gazebounity"
+              },
+              "next": {
+                "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-3-nvidia-isaac-ai-robot-brain"
+              }
+            },
+            {
+              "id": "module3-isaac-ai/intro",
+              "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+              "description": "Welcome to the NVIDIA Isaac AI-Robot Brain module. In this module, you'll learn how to integrate AI capabilities into robotic systems using NVIDIA Isaac.",
+              "source": "@site/docs/module3-isaac-ai/intro.md",
+              "sourceDirName": "module3-isaac-ai",
+              "slug": "/module3-isaac-ai/intro",
+              "permalink": "/PhysicalAi-Robotics-Book/docs/module3-isaac-ai/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/module3-isaac-ai/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-3-nvidia-isaac-ai-robot-brain"
+              },
+              "next": {
+                "title": "Module 4: Vision-Language-Action & Humanoid Capstone",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone"
+              }
+            },
+            {
+              "id": "module4-capstone/intro",
+              "title": "Module 4: Vision-Language-Action & Humanoid Capstone",
+              "description": "Welcome to the Vision-Language-Action & Humanoid Capstone module. In this final module, you'll integrate all concepts learned to create a complete humanoid robot system.",
+              "source": "@site/docs/module4-capstone/intro.md",
+              "sourceDirName": "module4-capstone",
+              "slug": "/module4-capstone/intro",
+              "permalink": "/PhysicalAi-Robotics-Book/docs/module4-capstone/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/module4-capstone/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 4: Vision-Language-Action & Humanoid Capstone",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone"
+              }
+            },
+            {
+              "id": "repo-structure",
+              "title": "Repository Structure & Guidelines",
+              "description": "This document explains the repository structure and commit message guidelines for the Physical AI & Humanoid Robotics book.",
+              "source": "@site/docs/repo-structure.md",
+              "sourceDirName": ".",
+              "slug": "/repo-structure",
+              "permalink": "/PhysicalAi-Robotics-Book/docs/repo-structure",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/PhysicalAI-Robotics/PhysicalAi-Robotics-Book/tree/main/docs/repo-structure.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Embodied Intelligence: Where AI Meets the Physical World",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/intro"
+              },
+              "next": {
+                "title": "Module 1: ROS 2 Nervous System",
+                "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "repo-structure"
+              },
+              {
+                "type": "category",
+                "label": "Module 1: ROS 2 Nervous System",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module1-ros/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Learn about ROS 2 architecture and communication patterns",
+                  "slug": "/category/module-1-ros-2-nervous-system",
+                  "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-1-ros-2-nervous-system"
+                },
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 2: Digital Twin (Gazebo/Unity)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module2-digital-twin/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Create simulation environments with physics engines and sensor simulation",
+                  "slug": "/category/module-2-digital-twin-gazebounity",
+                  "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-2-digital-twin-gazebounity"
+                },
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 3: NVIDIA Isaac AI-Robot Brain",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module3-isaac-ai/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Integrate AI capabilities, perception systems, and planning algorithms",
+                  "slug": "/category/module-3-nvidia-isaac-ai-robot-brain",
+                  "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-3-nvidia-isaac-ai-robot-brain"
+                },
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 4: Vision-Language-Action & Humanoid Capstone",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module4-capstone/intro"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Combine all concepts in a complete humanoid robot system",
+                  "slug": "/category/module-4-vision-language-action--humanoid-capstone",
+                  "permalink": "/PhysicalAi-Robotics-Book/docs/category/module-4-vision-language-action--humanoid-capstone"
+                },
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/PhysicalAi-Robotics-Book/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}
