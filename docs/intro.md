@@ -1,3 +1,8 @@
+import Link from '@docusaurus/Link';
+
+# Introduction
+
+This is a link created using the Link component: <Link to="/docs/another-page">Go to the next page</Link>
 ---
 sidebar_position: 1
 ---
