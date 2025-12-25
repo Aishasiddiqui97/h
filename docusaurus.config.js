@@ -9,7 +9,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Change this to your actual Vercel or GitHub Pages URL
-  url: 'https://h-nu-lyart.vercel.app',
+  url: 'http://localhost:3000/PhysicalAi-Robotics-Book https://h-nu-lyart.vercel.app',
   baseUrl: '/', // Set to '/' for Vercel, or '/PhysicalAi-Robotics-Book/' for GitHub Pages
 
   organizationName: 'PhysicalAI-Robotics', 
